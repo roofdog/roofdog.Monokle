@@ -1,0 +1,585 @@
+meta {
+	-theme-interface-style: dark;
+	-theme-vibrancy: none;
+	-theme-accent-color: false;
+}
+
+/*
+ * Window styles
+ */
+ meta.window {
+    background-color: #272822;
+    border-color: hsba(0, 0%, 100%, 0.1);
+}
+meta.titlebar {
+    color: #C7CCD1;
+    background: #1E1F1C;
+    border-color: hsba(0, 0%, 0%, 0.6);
+}
+meta.titlebar.inactive {
+    background-color: #2E3338;
+}
+
+meta.button {
+    background: linear-gradient(hsb(210, 10%, 34%), hsb(210, 10%, 26%));
+    border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+    color: white;
+}
+meta.button.highlighted {
+    background: linear-gradient(hsb(210, 10%, 44%), hsb(210, 10%, 36%));
+    color: white;
+}
+meta.button.selected {
+    color: white;
+}
+meta.button.highlighted.selected {
+    color: white;
+}
+meta.button.disabled {
+    background: linear-gradient(hsb(210, 10%, 34%), hsb(210, 10%, 26%));
+    border: linear-gradient(hsb(210, 10%, 18%), hsb(210, 10%, 14%));
+    color: hsb(0, 0%, 40%);
+}
+
+meta.textfield {
+    background-color: hsb(210, 10%, 34%);
+    border-color: hsb(210, 10%, 34%);
+}
+
+meta.accent {
+    color: #36aaf7;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: #272822;
+    border-color: #31332b;
+}
+
+meta.document.button {
+    background: linear-gradient(hsb(210, 10%, 26%), hsb(210, 10%, 22%));
+    border: linear-gradient(hsb(210, 10%, 12%), hsb(210, 10%, 8%));
+}
+meta.document.button.disabled {
+    background: linear-gradient(hsba(220, 10%, 26%, 0.3), hsba(220, 10%, 22%, 0.3));
+}
+meta.document.button.highlighted {
+    background: linear-gradient(hsb(210, 10%, 36%), hsb(210, 10%, 32%));
+}
+
+meta.document.textfield {
+    background-color: hsb(210, 10%, 10%);
+    border-color: hsb(210, 10%, 6%);
+}
+
+/* Text */
+meta.text {
+    color: #F4F4F4;
+}
+meta.text.invisible {
+    color: #F4F4F4;
+    text-decoration: line-through;
+}
+meta.text.selected {
+    color: #C7CCD1;
+    background-color: #5c6166;
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: rgba(255,255,255,0.2);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: #737780;
+}
+
+/* Gutter */
+meta.gutter {
+    color: #5c6166;
+}
+meta.gutter.selected {
+    background-color: rgba(255,255,255,0.2);
+    color: #b8c2cc;
+}
+
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+	color: #ff0071;
+}
+
+comment {
+	color: #6f6c58;
+}
+
+processing {
+	color: #6f6c58;
+}
+
+declaration {
+	color: #ff9200;
+}
+
+bracket {
+	color: #f4f4f4;
+}
+
+operator {
+	color: #ff0071;
+}
+
+invalid {
+	background-color: black;
+	color: orangered;
+}
+link {
+	
+	color: #187cef;
+
+}
+
+/* Values */
+value.boolean {
+	color: #b87bff;
+	font-weight: bold;
+}
+
+value.null {
+	color: #b87bff;
+	font-weight: bold;
+}
+
+value.number {
+	color: #b87bff;
+}
+
+value.entity {
+	color: #66d9f0;
+}
+
+value.symbol {
+	color: #66d9f0;
+}
+
+/* Identifiers */
+identifier.name{
+	color:#f4f4f4;
+}
+
+identifier.type {
+	color: #8fe000;
+	font-weight: bold;
+}
+
+identifier.type.class {
+    color: #66d9f0;
+}
+
+identifier.type.null {
+    color: #FF8563;
+}
+identifier.type.value.null {
+    color: #FF8563;
+}
+
+identifier.constant {
+	color: #ff9200;
+}
+
+identifier.global,
+identifier.variable {
+	color: #66d9f0;
+}
+
+identifier.property,
+identifier.decorator{
+	color:#ff0071;
+}
+
+identifier.function,
+identifier.core.function,,
+identifier.method {
+	color: #91e400;
+}
+
+identifier.key {
+	color: #ff0071;
+}
+
+identifier.argument {
+	color: #ff9200;
+}
+
+/* Strings */
+string {
+	color: #e7dc61;
+}
+
+string.key {
+	color: #f6f6ef;
+}
+
+string-template {
+	color: #b87bff;
+}
+
+string-template.value {
+	color: #8fe000;
+}
+
+regex {
+	color: #ff9200;
+}
+
+regex.escaped {
+	color: #8fe000;
+}
+
+cdata {
+	color: #187cef;
+}
+
+/* Markup */
+markup.heading {
+	color: #ff0071;
+}
+
+markup.line {
+	color: #e7dc61;
+}
+
+markup.bold {
+	color: #ff9200;
+	font-weight: bold;
+}
+
+markup.italic {
+	color: #1edcf2;
+	font-style: italic;
+}
+
+markup.strikethrough {
+	color: #1edcf2;
+}
+
+markup.list.item {
+	color: #90e200;
+}
+
+markup.code {
+	background-color: #3a3a3a;
+}
+
+/* Types */
+
+definition.class,
+definition.method {
+	color: #66d9f0;
+}
+
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+	font-weight: bold;
+	color: #9f85dd;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+	color: #e5f2ff;
+}
+
+definition.property.identifier,
+definition.property.semicolon {
+	color: #f4f4f4;
+}
+
+/* Tags */
+tag {
+	color: #ff0071;
+}
+
+tag.framework {
+	color: #ff0071;
+}
+
+tag.attribute.name {
+	color: #90e200;
+}
+
+tag.attribute.equals-sign {
+	color: #f4f4f4;
+}
+
+tag.attribute.value {
+	color: #e7dc61;
+}
+
+tag.attribute.value.link {
+	color: #187cef;
+}
+
+php.block {
+	color: #f4f4f4;
+}
+
+php.comment.block {
+	color: #6f6c58;
+}
+
+/* HTML */
+html.tag {
+    color: #f4f4f4; /* < > */
+}
+html.tag.name {
+    color: #ff0071; /* <meta> <br> */
+}
+html.tag.attribute.name {
+  color: #e7dc61;
+  font-style: italic;
+}
+
+/* XML */
+xml.tag {
+  color: ff0071;
+}
+xml.tag.name {
+}
+xml.tag.attribute.name {
+  color: #e7dc61;
+  font-style: italic;
+}
+xml.tag.attribute.value {
+    color: #90e200; 
+}
+
+/* Styles */
+style.operator{
+	color:#90e200;
+	font-weight: bold;
+}
+
+style.at {
+	color: #ff0071;
+	font-weight: bold;
+}
+
+style.selector.element {
+	color:#ff0071;
+	font-weight: bold;
+}
+
+style.selector.identifier.id {
+	color: #90e200;
+}
+
+style.selector.identifier.class {
+	color: #90e200;
+}
+
+style.selector.pseudoclass {
+	color: #90e200;
+}
+
+style.selector.pseudoelement {
+	color: #90e200;
+}
+
+style.selector.separator {
+	color: #f4f4f4;
+}
+
+style.attribute {
+	color: #f4f4f4;
+}
+
+style.attribute.name {
+	color: #1edcf2;
+}
+
+style.attribute.value {
+	color: #1edcf2;
+}
+
+style.attribute.separator {
+	color: #f4f4f4;
+}
+
+style.value.identifier.function {
+
+}
+
+style.value.number {
+	color: #b87bff;
+}
+
+style.value.number.unit {
+	color: #ff0071;
+}
+
+style.value.color.hex {
+	color: #b87bff;
+}
+
+style.value.keyword {
+	color: #1edcf2;
+}
+
+style.value.color.named {
+	color: #ff0071;
+}
+
+/* Terminal */
+terminal.black{
+	color: #000000;
+}
+
+terminal.red{
+	color: #ef0058;
+}
+
+terminal.green{
+	color: #91da08;
+}
+
+terminal.yellow{
+	color: #d8cf54;
+}
+
+terminal.blue{
+	color: #3879ef;
+}
+
+terminal.magenta{
+	color: #985df2;
+}
+
+terminal.cyan{
+	color: #50cadd;
+}
+
+terminal.white{
+	color: #eeeede;
+}
+
+terminal.bright-black{
+	color: #666666;
+}
+
+terminal.bright-red{
+	color: #f4216a;
+}
+
+terminal.bright-green{
+	color: #9fdc19;
+}
+
+terminal.bright-yellow{
+	color: #ded466;
+}
+
+terminal.bright-blue{
+	color: #5e92f2;
+}
+
+terminal.bright-magenta{
+	color: #a878f2;
+}
+
+terminal.bright-cyan{
+	color: #5dd1e0;
+}
+
+terminal.bright-white{
+	color: #efefe2;
+}
+
+
+/*********************
+* JavaScript
+*********************/
+/* Keywords */
+javascript.keyword {
+    color: #D18FF0;
+}
+
+javascript.keyword.class {
+    color: #FF8563;
+    font-style: italic;
+}
+
+javascript.keyword.extends {
+    color: #FFC957;
+}
+javascript.identifier.type.class.name,
+javascript.identifier.type.class.superclass {
+    color: #D18FF0;
+    font-weight: normal;
+}
+
+/* Identifiers */
+javascript.identifier.method,
+javascript.identifier.function,
+javascript.identifier.function.name {
+    color: #77ABFF;
+}
+javascript.identifier.argument.name {
+    color: #FF8563;
+    font-style: italic; 
+}
+javascript.identifier,
+javascript.identifier.name {
+    color: #FFFFFF;
+}
+javascript.identifier.property {
+    color: #B9E981;
+}
+javascript.identifier.constant {
+    color: #FFC957;
+}
+javascript.identifier.core.global {
+    color: #FFC957;
+}
+javascript.identifier.core.function {
+    color: #FFC957;
+    font-style: italic;
+}
+
+/* Values */
+javascript.value.null,
+javascript.value.boolean,
+javascript.value.number.hex,
+javascript.value.number {
+    color: #FF8563;
+}
+
+/* Strings */
+javascript.string.backtick-quoted,
+javascript.string.double-quoted,
+javascript.string.single-quoted {
+    color: #8282BE;
+}
+javascript.string.regex {
+    color: #FFC957;
+}
+
+/* Operators */
+javascript.operator,
+javascript.bracket,
+javascript.comma,
+javascript.semicolon,
+javascript.separator {
+    color: #69EBD9;
+}
