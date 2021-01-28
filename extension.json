@@ -7,6 +7,6 @@
 	"categories": ["themes"],
 	"keywords": ["dark", "html", "php", "css", "javascript", "monokai"],
 	"license": "MIT",
-	"repository": ""
-	"bugs":""
+	"repository": "https://github.com/roofdog/roofdog.Monokle"
+	"bugs":"https://github.com/roofdog/roofdog.Monokle/issues"
 }
