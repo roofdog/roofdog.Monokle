@@ -1,12 +1,12 @@
 {
-	"identifier": "roofdog.Monokle",
-	"name": "Monokle",
-	"organization": "roofdog",
-	"description": "A dark Monokai inspired Nova theme.",
-	"version": "1.0.0",
-	"categories": ["themes"],
-	"keywords": ["dark", "html", "php", "css", "javascript", "monokai"],
-	"license": "MIT",
-	"repository": "https://github.com/roofdog/roofdog.Monokle"
-	"bugs":"https://github.com/roofdog/roofdog.Monokle/issues"
+    "identifier": "roofdog.Monokle",
+    "name": "Monokle",
+    "organization": "roofdog",
+    "description": "A dark Monokai inspired Nova theme.",
+    "version": "1.0",
+    "categories": ["themes"],
+    "keywords": ["dark", "html", "php", "css", "javascript", "monokai"],
+    "license": "MIT",
+    "repository": "https://github.com/roofdog/roofdog.Monokle",
+    "bugs":"https://github.com/roofdog/roofdog.Monokle/issues"
 }

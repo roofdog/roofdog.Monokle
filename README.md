@@ -16,4 +16,4 @@ Monokle supports the following languages:
 
 ✅ Terminal
 
-Enjoy! 
+Enjoy!
